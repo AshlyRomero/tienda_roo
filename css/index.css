@@ -1,0 +1,17 @@
+.body{
+    display: grid;
+    grid-template-columns: 114.5rem 21.5rem;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#div_product_list{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 0.5rem;
+    padding: 0.5rem;
+}
+#footer{
+    height: 100%;
+    background-color: black;
+}

@@ -1,0 +1,81 @@
+.item_product {
+    display: grid;
+    grid-template-rows: 9rem 8.6rem;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    border: 1px solid #ccc;
+    border-radius: 1rem; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s, box-shadow 0.3s; 
+}
+
+.item_product:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.box_img {
+    margin: auto;
+    padding: 4rem; 
+}
+
+.box_img img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 1rem; 
+    transition: transform 0.3s; 
+}
+
+.box_img img:hover {
+    transform: scale(1.05); 
+}
+
+.name {
+    padding: 0.5rem; 
+    font-size: 1.1rem; 
+    font-weight: bold;
+    color: #333; 
+    text-align: center; 
+}
+
+.caja_descri {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 3.5rem 1.3rem 3rem;
+    padding: 0.5rem;
+    background-color: #f9f9f9; 
+    border-top: 1px solid #eee; 
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 0.2rem;
+    font-size: 1.2rem;
+    color: #bf95b7; 
+    font-weight: bold; 
+}
+
+
+.buy_btn {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #c788bb; 
+    width: 13rem;
+    height: 2.5rem; 
+    border-radius: 1.5rem;
+    color: white; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    transition: background-color 0.3s, transform 0.3s; 
+    cursor: pointer; 
+}
+
+.buy_btn:hover {
+    background-color: #d31c9c; 
+    transform: scale(1.05); 
+}
